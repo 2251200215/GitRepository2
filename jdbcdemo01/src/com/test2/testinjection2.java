@@ -6,6 +6,7 @@ import java.sql.*;
 import java.util.Scanner;
 
 public class testinjection2 {
+    private  static String uuu="aaa";
     private static String driver="com.mysql.jdbc.Driver";
     static String url="jdbc:mysql://127.0.0.1:3306/mytest?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT&useServerPrepStmts=true&cachePrepStmts=true";
     static String user="root";
